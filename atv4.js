@@ -15,6 +15,6 @@ if (valorCompras) {
   }
 
   const precoComDesconto = valorCompras - desconto;
-  document.write(`Cliente: ${nomeCliente} Valor com desconto: R$ ${precoComDesconto} <br>`);
+  document.write(`Cliente: ${nomeCliente} <br> Valor com desconto: R$ ${precoComDesconto} <br>`);
 
 }
